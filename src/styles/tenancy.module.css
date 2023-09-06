@@ -1,0 +1,78 @@
+.tenancydetailBody{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+.infoItem{
+    display: flex;
+    gap: 50px;
+}
+.infoItem h3{
+    font-size: 16px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.infoItem h2{
+    font-size: 18px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.aggremnt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.aggremnt .paper{
+    font-size: 100px;
+    color: #F4F4F4;
+    border: 2px solid #DADADA;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.aggremnt .arrow{
+    font-size: 30px;
+    color: #A8A8A8;
+    font-weight: 600;
+}
+.aggremnt h2{
+    font-size: 20px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.aggremnt p{
+    font-size: 16px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+/* media query */
+@media screen and (max-width: 468px){
+    .aggremnt{
+        gap: 10px;
+    }
+    .aggremnt h2{
+        font-size: 16px;
+    }
+    .aggremnt p{
+        font-size: 14px;
+    }
+    .aggremnt .paper{
+        font-size: 50px;
+    }
+}

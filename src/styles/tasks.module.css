@@ -1,0 +1,67 @@
+.taskSection{
+    width: 100%;
+    padding: 15px 0px;
+    box-sizing: border-box;
+}
+.taskFilter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.taskFilter .active{
+    background-color: #F3F3F3;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+.taskFilter h2{
+    font-size: 13px;
+    text-align: center;
+    color: #000;
+    border-radius: 50px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 5px 12px;
+}
+.taskFilter h2:hover{
+    background-color: #F3F3F3;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+.allTask{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0px;
+}
+.allTask button{
+    font-size: 14px;
+    background-color: #F3F3F3;
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.allTask button:hover{
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+.taskItems{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.taskItems a{
+    text-decoration: none;
+    color: #000;
+}
+/* Media Query */
+@media screen and (max-width: 510px){
+    .taskFilter{
+        flex-wrap: wrap;
+    }
+}
+
+
+

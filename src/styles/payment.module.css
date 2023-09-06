@@ -1,0 +1,48 @@
+
+.rooms{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.inven{
+    font-size: 20px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600; 
+}
+.inventory svg{
+    font-size: 15px;
+    color: #A8A8A8;
+    padding-right: 5px;
+}
+.inventory h2{
+    font-size: 18px;
+    color: #A8A8A8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.toilet h2{
+    font-size: 18px;
+    color: #A8A8A8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.accordion-item h2{
+    font-size: 16px !important;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.accordion-item button{
+    font-size: 16px !important;
+}
+.accordion-body{
+    font-size: 15px !important;
+}
+
+/* media screen */
+@media screen and (max-width: 468px){
+    .detailHead h2{
+        font-size: 16px;
+    }
+}

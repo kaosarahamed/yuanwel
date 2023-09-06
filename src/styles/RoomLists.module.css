@@ -1,0 +1,199 @@
+.roomLists{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+.roomLists .backButton{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    padding: 15px 0px;
+}
+.roomLists h3{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.listItems{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.listItem{
+    border: 2px solid #DADADA;
+}
+.listHead{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #DADADA;
+    padding: 20px;
+    align-items: flex-start;
+    gap: 50px;
+}
+.timeSetting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.timeSetting span{
+    background-color: #F3F3F3;
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.timeSetting span i{
+    font-size: 15px;
+    color: #A8A8A8;
+}
+.timeSetting svg{
+    font-size: 20px;
+    color: #000;
+}
+.timeSetting p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+.timeSetting{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.info h2{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.info p{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.listFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+.user{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.userLeft{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border-right: 1px solid #A8A8A8;
+    padding-right: 20px;
+}
+.userLeft h4{
+    font-size: 17px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.userLeft h5{
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.userRight span{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.userRight span h4{
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.userRight p{
+    font-size: 13px;
+    color: #A8A8A8;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.userLeft svg{
+    font-size: 20px;
+    color: #A8A8A8;
+    background-color: #F4F4F4;
+    padding: 20px;
+    border-radius: 50px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action a{
+    font-size: 17px;
+    background-color: #D9D9D9;
+    border: none;
+    padding: 18px 0px; 
+    border-radius: 5px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+}
+.action a:hover{
+    background-color: #A8A8A8;
+    cursor: pointer;
+}
+.action svg{
+    font-size: 60px;
+    color: #000;
+    border: 2px solid #A8A8A8;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 468px){
+    .listFooter{
+        padding: 10px;
+    }
+    .user{
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .userLeft{
+        gap: 10px;
+        padding-right: 10px;
+    }
+    .userLeft svg{
+        padding: 15px;
+    }
+    .userLeft h4{
+        font-size: 15px;
+    }
+    .userLeft h5{
+        font-size: 12px;
+    }
+    .userLeft img{
+        width: 15px;
+        height: 15px;
+    }
+    .userRight span{
+        gap: 5px;
+    }
+    .userRight span h4{
+        font-size: 13px;
+    }
+}

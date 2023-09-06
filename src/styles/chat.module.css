@@ -1,0 +1,125 @@
+.headContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title h2{
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: normal;
+}
+.notification svg{
+    font-size: 30px;
+    color: #000;
+}
+.chatLists{
+    padding: 50px 0px;
+}
+.chatListContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.chatFilter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    border-bottom: 1px solid #DADADA;
+}
+.chatFilter h2{
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #000;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+.active{
+    border-bottom: 1px solid #000;
+}
+.chatFilter h2 span{
+    background-color: #DADADA;
+    padding: 2px 8px;
+    border-radius: 50px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.chatItems{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.chatItems a{
+    text-decoration: none;
+    color: #000;
+}
+.chatItem{
+    border: 2px solid #DADADA;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userInfo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.userInfo h3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #DADADA;
+}
+.userInfo h2{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+.userInfo p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+.chatTime{
+    display: flex;
+    justify-content: flex-end;
+}
+.chatTime p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+@media screen and (max-width: 468px){
+    .chatFilter{
+        gap: 15px;
+    }
+    .userInfo h3{
+        width: 40px;
+        height: 40px;
+    }
+    .userInfo{
+        gap: 10px;
+    }
+    .chatItem{
+        gap: 10px;
+    }
+    .userInfo h2{
+        font-size: 15px;
+    }
+    .userInfo p{
+        font-size: 13px;
+    }
+    .chatTime p{
+        font-size: 13px;
+    }
+}
